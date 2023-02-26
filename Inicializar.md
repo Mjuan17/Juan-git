@@ -21,6 +21,9 @@ cambios existentes
 ## agregar un commit
 despues at que poner 
 git commit -m "mensaje del commit"
+
+## Escoger la rama del repositorio
+git branch -m main
 ## configurar ruta del repositorio remoto
 despues se tiene que configurar la ruta
 del remoto.
