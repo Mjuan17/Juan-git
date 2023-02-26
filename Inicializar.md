@@ -47,3 +47,4 @@ que ayan sido enviados al commit.
 ## Como traer los archivos del remoto al local
 como descargar los archivos del remoto.
 con git pull.
+y esto traera los archivos al local
