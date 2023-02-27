@@ -51,3 +51,21 @@ que ayan sido enviados al commit.
 como descargar los archivos del remoto.
 con git pull.
 y esto traera los archivos al local
+
+## ignorar archivos
+### Esto se pone en el archivo .gitignore
+*.extension -> le dice a git que ignore a
+todos los archivos con esa extension.
+
+carpeta -> ignorara todos los archivos de la
+carpeta que pongamos el nombre.
+
+archivo.extension -> ignorara el archivo que pongamos
+
+!archivo.extension -> es expresion de negacion que dice que 
+este archivo unicamente no lo ignore, entre todos los que tengan la misma extension.
+
+carpeta/*.extension -> dice que ignore todos los archivos con esa extension dentro de la carpeta , pero no en las subcarpetas(
+que son las que estan dentro de la carpeta especificada)
+
+carpeta/**/*.extension -> dice que ignore todos los archivos terminados en esa extension dentro de la carpeta, y tambien dentro de sus subcarpetas.(carpetas dentro de esa)
